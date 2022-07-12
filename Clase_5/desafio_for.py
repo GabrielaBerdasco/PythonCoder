@@ -45,3 +45,6 @@ for x in range(len(str(num_5))):
     cantidad += 1
 else:
     print(f'La cantidad de números es : {cantidad}')
+
+# o num = input('Ingresar número: ')
+# print(len(num))

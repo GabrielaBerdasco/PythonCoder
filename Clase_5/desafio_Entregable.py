@@ -4,7 +4,7 @@ option = 1
 number_1 = int(input('Ingresar primer número: '))
 number_2 = int(input('Ingresar segundo número: '))
 
-while option <= 4 :
+while option != 4 :
     option = int(input('Qué opción desea elegir : \n(1. Suma, 2. Resta, 3. Multiplicación, 4. Salir\n'))
 
     if option == 1 :
@@ -19,9 +19,8 @@ while option <= 4 :
     elif option == 4 :
         print('Ha seleccionado la opción de salir')
         break
-
-else :
-    print('La opción no es correcta')
+    else :
+        print('La opción no es correcta')
     
 
 #2
