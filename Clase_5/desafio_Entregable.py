@@ -87,6 +87,7 @@ print(list_5)
 lista_1 = ["h",'o','l','a',' ', 'm','u','n','d','o']
 lista_2 = ["h",'o','l','a',' ', 'l','u','n','a']
 lista_12 = lista_1 + lista_2
+#lista_12 = lista_1.extend(lista_2)
 lista_3 = []
      
 
