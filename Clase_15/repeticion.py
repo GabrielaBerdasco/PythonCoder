@@ -1,11 +1,12 @@
 import sys
 
-print(sys.argv)
 
-if sys.argv == 3 :
+arg_list = len(sys.argv)
 
-    for e in range(int(sys.argv[2])):
-        print(sys.argv[1])
+if arg_list == 3 :
+
+    for e in range(arg_list):
+        print(sys.argv[e])
 
 else :
     print('Introducir argumentos')
